@@ -84,8 +84,9 @@ add_subdirectory(my_example/Private_Embedding_Lookup)
 ```
 by dragging it onto that folder. The upload may take a few minutes.
 
-3. Unpack it in the terminal:
+3. In the terminal, move to the upload directory and unpack the artifact:
 ```bash
+cd /home/user/devkit/examples/heaan2-examples/my_example
 python3 -m zipfile -e Private_Embedding_Lookup.zip .
 ```
 
