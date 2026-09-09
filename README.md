@@ -76,24 +76,20 @@ add_subdirectory(my_example/Private_Embedding_Lookup)
 
 ## Step 2 — Download, upload, and unpack the artifact
 
-Download `Private_Embedding_Lookup.zip` from the **Releases** section of this repository.
-
-Upload `Private_Embedding_Lookup.zip` into
+1. Go to <https://github.com/hnrhee11/private-embedding-lookup/releases> and download `Private_Embedding_Lookup.zip` (1.7GB).
+2. Upload `Private_Embedding_Lookup.zip` into
 
 ```
 /home/user/devkit/examples/heaan2-examples/my_example
 ```
-
 by dragging it onto that folder. The upload may take a few minutes.
 
-Then unpack it in the terminal:
-
+3. Unpack it in the terminal:
 ```bash
 python3 -m zipfile -e Private_Embedding_Lookup.zip .
 ```
 
 The result should be:
-
 ```
 heaan2-examples/
 ├── CMakeLists.txt                  (edited in Step 1)
